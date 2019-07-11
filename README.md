@@ -4,7 +4,7 @@ TCR-peptide-MHC binding predictor, using protein-protein interaction CNN in Pyto
 
 Based on master thesis "Deep learning using protein structural modeling for prediction of T-cell receptor and peptide MHC binding", June 2019, attended at Danish Technical University under supervisor Paolo Marcatili.
 
-Notebook overview:
+#### Notebook overview:
 
 - 0_RandomForestAnalysis1.ipynb and Analysis2.ipynb: Random forest analysis of original dataset by Olsen
 - 1_Raw_data_preprocessing.ipynb: All pre-processing done to generate data/03_Dataset/preproc_dataset.zip. Basis for all training of CNN.
@@ -12,7 +12,7 @@ Notebook overview:
 - 3_Performance_score_graphs.ipynb: Data analysis based on model performances and predictions. Scores were extracted and graphed based on CSV logs.
 - 4_Prediction_Graphs_Logoplots.ipynb: Data analysis based on model performances and predictions. Scores were extracted and graphed based on CSV logs.
 
-Data overview:
+#### Data overview:
 
 - data/00_model_structures: Raw dataset. Original TCR-p-MHC structural models downloaded from IEDB.org, split into 5 separate partitions, clustered by 30 % similarity
 - data/00_Data_analysis: Various files used for the data analysis in notebooks 2, 3 and 4
@@ -22,7 +22,7 @@ Data overview:
 - results: Prediction graphs and logoplots generated using notebooks 3 and 4
 
 
-Requirements (as used in conda environment):
+#### Requirements (as used in conda environment):
 - Python 3.7.2
 - PyTorch 1.0.0
 - Fast.ai 1.0.42
