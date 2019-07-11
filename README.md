@@ -22,6 +22,18 @@ Data overview:
 - results: Prediction graphs and logoplots generated using notebooks 3 and 4
 
 
+Requirements:
+- Python 3.7
+- PyTorch
+- Fast.ai
+  - Fast.ai 0.7 may be required for some RandomForest scripts https://forums.fast.ai/t/fastai-v0-7-install-issues-thread/24652
+- MPL logoplot: https://github.com/micked/mpl-logoplot
+- Pandas
+- Numpy
+- scikit-learn
+- 
+
+
 
 
 
