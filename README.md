@@ -4,7 +4,11 @@ TCR-peptide-MHC binding predictor, using protein-protein interaction CNN in Pyto
 
 Based on master thesis "Deep learning using protein structural modeling for prediction of T-cell receptor and peptide MHC binding", June 2019, attended at Danish Technical University under supervisor Paolo Marcatili.
 
+
 Thesis available in MagnusHoie_MasterThesis_Final.pdf.
+
+Project is based on previous work by Olsen TH:
+"Combining deep learning and structural modeling to predict T cell receptor specificity" - DTU Findit. https://findit.dtu.dk/en/catalog/2438676047
 
 #### Notebook overview:
 
