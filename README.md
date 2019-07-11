@@ -22,16 +22,26 @@ Data overview:
 - results: Prediction graphs and logoplots generated using notebooks 3 and 4
 
 
-Requirements:
+Requirements (as used in conda environment):
 - Python 3.7
-- PyTorch
-- Fast.ai
+- PyTorch 1.0.0
+- Fast.ai 1.0.42
   - Fast.ai 0.7 may be required for some RandomForest scripts https://forums.fast.ai/t/fastai-v0-7-install-issues-thread/24652
-- MPL logoplot: https://github.com/micked/mpl-logoplot
-- Pandas
-- Numpy
-- scikit-learn
-- 
+- Pandas 0.24.0
+- Numpy 1.15.4
+- scikit-learn 0.20.2
+- Scipy 1.2.0
+- sklearn-pandas 1.8.0
+- Plotnine 0.5.1
+- MPL logoplot
+  - https://github.com/micked/mpl-logoplot
+- BioPython (pairwise alignment scores)
+- pdpbox (RF partial dependence plots)
+  - https://github.com/SauceCat/PDPbox
+- treeinterpreter 0.2.2 (RF)
+  - https://github.com/andosa/treeinterpreter
+
+
 
 
 
