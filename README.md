@@ -23,7 +23,7 @@ Data overview:
 
 
 Requirements (as used in conda environment):
-- Python 3.7
+- Python 3.7.2
 - PyTorch 1.0.0
 - Fast.ai 1.0.42
   - Fast.ai 0.7 may be required for some RandomForest scripts https://forums.fast.ai/t/fastai-v0-7-install-issues-thread/24652
