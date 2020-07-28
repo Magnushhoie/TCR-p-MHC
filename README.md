@@ -6,6 +6,10 @@ Thesis title was ["Deep learning using protein structural modeling for predictio
 Project is based on previous work by Olsen TH:
 "Combining deep learning and structural modeling to predict T cell receptor specificity" - DTU Findit. https://findit.dtu.dk/en/catalog/2438676047
 
+
+#### Poster:
+[https://github.com/Magnushhoie/TCR-p-MHC/raw/master/tcr_p_mhc_poster_2019.pdf](TCR-peptide-MHC poster 2019)
+
 #### Notebook overview:
 
 - 0_RandomForestAnalysis1.ipynb and Analysis2.ipynb: Random forest analysis of original dataset by Olsen
