@@ -1,4 +1,4 @@
-# TCR-p-MHC
+# Deep-learning T-cell receptor to peptide-MHC binding predictor
 Deep-learning based T-cell receptor binding predictor. Convolutional neural network based on protein-protein interaction model by [Hashemifar et al 2018](https://academic.oup.com/bioinformatics/article/34/17/i802/5093239) (see poster). Input features are sequences of TCR, peptide and MHC cognate parts sourced from IEDB.org, and protein free energies extracted by FoldX. Protein structural models constructed using homology modelling in MODELLER, and is described in further detail in the thesis. CNN is coded in Pytorch and fast.ai deep learning library, see CNN.py.
 
 Thesis title was ["Deep learning using protein structural modeling for prediction of T-cell receptor and peptide MHC binding"](https://github.com/Magnushhoie/TCR-p-MHC/blob/master/MagnusHoie_MasterThesis_Final.pdf), June 2019, attended at Danish Technical University under supervisor Paolo Marcatili.
