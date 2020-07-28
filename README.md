@@ -7,7 +7,7 @@ Project is based on previous work by Olsen TH:
 "Combining deep learning and structural modeling to predict T cell receptor specificity" - DTU Findit. https://findit.dtu.dk/en/catalog/2438676047
 
 
-#### Poster, presented at KU Science/Novo Nordisk workshop on “Data Science in the Pharmaceutical Industry", Nov 15 2020:
+#### Poster, presented at KU Science/Novo Nordisk workshop on “Data Science in the Pharmaceutical Industry", Nov 15 2019:
 <img src="https://github.com/Magnushhoie/TCR-p-MHC/raw/master/tcr_p_mhc_poster_2019.png">
 
 #### Notebook overview:
