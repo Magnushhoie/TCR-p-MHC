@@ -1,8 +1,7 @@
 # TCR-p-MHC
-Master thesis project. TCR-peptide-MHC binding predictor, using protein-protein interaction CNN in Pytorch and fast.ai.
-Thesis available in MagnusHoie_MasterThesis_Final.pdf.
+A T-cell receptor binding predictor, based on protein-protein interaction convolutional neural network by Hashemifar et al 2018. Input features are sequences of TCR, peptide and MHC cognate parts sourced from IEDB.org, and protein free energies extracted by FoldX. Protein structural models constructed using homology modelling in MODELLER, and is described in further detail in the thesis. CNN is coded in Pytorch and fast.ai deep learning library..
 
-Thesis title was "Deep learning using protein structural modeling for prediction of T-cell receptor and peptide MHC binding", June 2019, attended at Danish Technical University under supervisor Paolo Marcatili.
+Thesis title was ["Deep learning using protein structural modeling for prediction of T-cell receptor and peptide MHC binding"](https://github.com/Magnushhoie/TCR-p-MHC/blob/master/MagnusHoie_MasterThesis_Final.pdf), June 2019, attended at Danish Technical University under supervisor Paolo Marcatili.
 
 Project is based on previous work by Olsen TH:
 "Combining deep learning and structural modeling to predict T cell receptor specificity" - DTU Findit. https://findit.dtu.dk/en/catalog/2438676047
