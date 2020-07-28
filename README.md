@@ -8,7 +8,7 @@ Project is based on previous work by Olsen TH:
 
 
 #### Poster:
-![https://github.com/Magnushhoie/TCR-p-MHC/raw/master/tcr_p_mhc_poster_2019.pdf](TCR-peptide-MHC poster 2019)
+<img src="https://github.com/Magnushhoie/TCR-p-MHC/raw/master/tcr_p_mhc_poster_2019.png">
 
 #### Notebook overview:
 
