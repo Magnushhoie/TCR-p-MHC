@@ -10,29 +10,17 @@ Project is based on previous work by Olsen TH:
 #### Poster, presented at KU Science/Novo Nordisk workshop on “Data Science in the Pharmaceutical Industry", Nov 15 2019:
 <img src="https://github.com/Magnushhoie/TCR-p-MHC/raw/master/tcr_p_mhc_poster_2019.png">
 
-#### Notebook overview:
-
-- 0_RandomForestAnalysis1.ipynb and Analysis2.ipynb: Random forest analysis of original dataset by Olsen
-- 1_Raw_data_preprocessing.ipynb: All pre-processing done to generate data/03_Dataset/preproc_dataset.zip. Basis for all training of CNN.
-- 2_Raw_data_graphs_heatmaps.ipynb: Heatmaps of the raw dataset distribution
-- 3_Performance_score_graphs.ipynb: Data analysis based on model performances and predictions. Scores were extracted and graphed based on CSV logs.
-- 4_Prediction_Graphs_Logoplots.ipynb: Data analysis based on model performances and predictions. Scores were extracted and graphed based on CSV logs.
-
 #### Data overview:
 
 - data/00_model_structures: Raw dataset. Original TCR-p-MHC structural models downloaded from IEDB.org, split into 5 separate partitions, clustered by 30 % similarity
-- data/00_Data_analysis: Various files used for the data analysis in notebooks 2, 3 and 4
-- data/02_Features: Various datasets used for data analysis in notebooks 0, 2, 3 and 4. Includes csv files for FoldX energy terms, identity scores, full aligned sequences, BLOSUM-alignment scores and more for all 1464 complexes.
+- data/02_Features: CSV files for FoldX energy terms, identity scores, full aligned sequences, BLOSUM-alignment scores and more for all 1464 complexes.
 - data/03_Dataset: Full pre-processed dataset for which all training and validation was done. All performance statistics were done using this pre-processed dataset, except the Random Forest analysis using BLOSUM-alignment scores
-- CSV: CSV log files with predictions and performance statistics from several thousand independent model with different hyperparameter settings. Generally at least 100 models were trained for each hyperparameter setting.
-- results: Prediction graphs and logoplots generated using notebooks 3 and 4
-
+- Results: Prediction graphs and logoplots
 
 #### Requirements (as used in conda environment):
 - Python 3.7.2
 - PyTorch 1.0.0
-- Fast.ai 1.0.42
-  - Fast.ai 0.7 may be required for some RandomForest scripts https://forums.fast.ai/t/fastai-v0-7-install-issues-thread/24652
+- Fast.ai 0.7
 - Pandas 0.24.0
 - Numpy 1.15.4
 - scikit-learn 0.20.2
@@ -46,10 +34,4 @@ Project is based on previous work by Olsen TH:
   - https://github.com/SauceCat/PDPbox
 - treeinterpreter 0.2.2 (RF)
   - https://github.com/andosa/treeinterpreter
-
-
-
-
-
-
 
